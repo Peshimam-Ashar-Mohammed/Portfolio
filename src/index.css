@@ -1,0 +1,3 @@
+/* Reset — index.css is now minimal; all styling lives in styles.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { min-height: 100%; }
