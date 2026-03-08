@@ -2,6 +2,9 @@ import { useState, useEffect, useRef } from 'react'
 import './styles.css'
 import Navbar from './components/Navbar'
 import About from './pages/About'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+import AboutMe from './pages/AboutMe'
 import InkscapeGallery from './pages/InkscapeGallery'
 import ThreeDGallery from './pages/ThreeDGallery'
 import MarketingGallery from './pages/MarketingGallery'
@@ -53,6 +56,12 @@ function App() {
     <div className="site-shell" ref={shellRef}>
       <Navbar activeSection={activeSection} />
       <About />
+      <Divider />
+      <Projects />
+      <Divider />
+      <Skills />
+      <Divider />
+      <AboutMe />
       <Divider />
       <InkscapeGallery />
       <Divider />

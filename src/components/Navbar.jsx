@@ -1,5 +1,8 @@
 const links = [
-  { id: 'about',      label: 'About' },
+  { id: 'about',      label: 'Home' },
+  { id: 'projects',   label: 'Projects' },
+  { id: 'skills',     label: 'Skills' },
+  { id: 'aboutme',    label: 'About Me' },
   { id: 'inkscape',   label: 'Inkscape' },
   { id: '3d',         label: '3D' },
   { id: 'marketing',  label: 'Marketing' },

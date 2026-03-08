@@ -3,16 +3,19 @@ export default function About() {
     <section id="about">
       <div className="section-block hero-wrapper">
         <div className="about-section reveal">
-          <p className="eyebrow">Visual Designer &amp; 3D Artist</p>
-          <h1>Creative<br />Portfolio</h1>
+          <p className="eyebrow">Designer &amp; Full-Stack Developer</p>
+          <h1>Peshimam<br />Ashar<br />Mohammed</h1>
           <p className="lead">
-            Designing bold posters, building immersive 3D environments, and crafting
-            visual identities that hit hard. Brutalist aesthetics, clean grids, and
-            relentless attention to typography drive every piece of work.
+            I build visually engaging digital products by combining
+            graphic design with web development.
           </p>
+          <div className="hero-buttons">
+            <a href="#projects" className="btn-primary">View Projects</a>
+            <a href="/resume.pdf" className="btn-outline" download>Download Resume</a>
+          </div>
         </div>
 
-        {/* Abstract inflatable 3D blobs — right side filler */}
+        {/* Abstract geometric decoration — right side */}
         <div className="hero-blobs" aria-hidden="true">
           <div className="blob blob-1" />
           <div className="blob blob-2" />
